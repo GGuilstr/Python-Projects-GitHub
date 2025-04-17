@@ -1,0 +1,1 @@
+Python Program for Contractors to estimate a home or business project by entering in textboxes the project materials needed and taking photos through the Python form. The form calculates the material amounts including the tax for material purchases. The form saves the entries to a SQLITE database, pdf and csv file to be imported any time you open the python form.

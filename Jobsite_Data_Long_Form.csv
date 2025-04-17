@@ -1,0 +1,32 @@
+Customer Data
+Name,Address,Phone,Date,Email
+Homeowner Bill,"1234 Everywhere St.
+MyTown Ca. 92567",(231) 677-9977,4/15/2025,myemail@gmail.com
+
+Jobsite Details
+Job_Description,Item_Needed,Item_Quantity,Item_Cost,Misc_Items_Needed,Misc_Items_Cost,Material_Cost
+"Repair Backyard Deck. Stair Railing and Screened
+in Porch.",,,,,,
+,6X6 Bulkheads,7,433.77,,,
+,6X12 Floor planks,15,367.88,,,
+,Deck screws,400,167.33,,,
+,Gusset Supports,8,535.44,,,
+,Stringers,8,277.88,,,
+,,,,"Bolts, Nails and tape",155.66,
+
+==== Data from EstimatorDB2.db ====
+
+Jobsite Details
+Item_Needed,Item_Quantity,Item_Cost,Additional_Items_Needed,Additional_Items_Cost,Total_Material_Cost,Tax_Rate,Tax_Amount,Material_Total_with_Tax,Labor_Total,Total_project_cost
+Insulation,4,267.55,,,,,,,,
+Cement,6,125.11,,,,,,,,
+Wiring,5,211.25,,,,,,,,
+Llighting,342.67,342.67,,,,,,,,
+Electrical plugs,20,78.99,,,,,,,,
+,,,"Bolts, Nails and tape plus Glue",66.47,,,,,,
+,,,,,3030.0,0.09,272.7,3302.7,2000.0,5302.7
+
+Estimate Prepared By
+Estimate_Prepared_By
+Contractor Long Form
+

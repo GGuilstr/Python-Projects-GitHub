@@ -1,0 +1,20 @@
+Customer Data
+Name,Address,Phone,Date,Email
+Homeowner Bob,"1234 Everywhere St.
+MyTown Ca. 92567",(231) 677-9977,4/15/2025,myemail@gmail.com
+
+Jobsite Details
+Job_Description,Item_Needed,Item_Quantity,Item_Cost,Misc_Items_Needed,Misc_Items_Cost,Material_Cost,Tax_Rate,Tax_Amount,Material_Total_with_Tax,Labor_Total,Total_project_cost
+Repair Backyard Deck. Stair Railing and Screened in Porch.,,,,,,,,,,,
+,6X6 Bulkheads,6,345.77,,,,,,,,
+,6X12 Floor planks,8,256.33,,,,,,,,
+,Deck screws,200,133.77,,,,,,,,
+,Gusset Supports,4,423.12,,,,,,,,
+,Stringers,7,566.34,,,,,,,,
+,,,,"Bolts, Nails and tape",125.88,,,,,,
+,,,,,,1851.21,0.09,166.61,2017.82,1500.0,3517.82
+
+""
+Estimate_Prepared_By
+Contractor Short Form
+

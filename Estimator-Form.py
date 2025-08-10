@@ -1773,29 +1773,25 @@ class Savedbs_csv_pdf(QWidget):
 
     def save_to_dbs(self):
 
-#        delete_job_estimate(self)
-
         db_path = os.path.join(self.files_folder, 'job_estimate.db')
         backup_path = os.path.join(self.files_folder, 'job_estimate_backup.db')
 
-        # Backup and delete existing database
-        if os.path.exists(db_path):
-            try:
-                # Step 1: Backup the database
-                shutil.copy2(db_path, backup_path)
+        # If database doesn't exist, skip backup/delete
+        if not os.path.exists(db_path):
+            print("Database file not found. Skipping backup and delete.")
+            pass #return
 
-                # Step 2: Delete the original database
-                os.remove(db_path)
+        try:
+            # Step 1: Backup the database
+            shutil.copy2(db_path, backup_path)
+            print(f"Backup created: {backup_path}")
 
-                #messagebox.showinfo("Success", "Database deleted and backup saved.")
-            except Exception as e:
-                #messagebox.showerror("Error", f"An error occurred: {str(e)}")
-                print(f"Error during backup/delete: {e}")
-                return  # Stop if there was an error
-        else:
-            messagebox.showerror("Error", "Database file not found.")
-            print("Database file not found.")
-            return  # Stop if DB doesn't exist
+            # Step 2: Delete the original database
+            os.remove(db_path)
+            print(f"Database deleted: {db_path}")
+
+        except Exception as e:
+            print(f"Error during backup/delete: {e}")
 
 # --------------------------------------------------
 
